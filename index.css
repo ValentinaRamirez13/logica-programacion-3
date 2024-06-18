@@ -1,0 +1,76 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    /* Fondo degradado */
+    background: linear-gradient(to bottom right, mediumslateblue, cornflowerblue);
+    /* Aplicar el degradado en toda la página */
+      min-height: 88vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+/* Estilos para el título */
+h1 {
+    color: darkred;
+    font-weight: bold;
+    font-size: 56px;
+}
+h2 {
+    color: navy;
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: 0.5%;
+}
+.contenedor{
+    display: flex;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 20px;
+    padding: 20px;
+    align-items: center;
+}
+.operacion{
+    flex: 1; /* Ocupa el espacio restante */
+}
+label, input {
+    margin-top: 2%;
+    display: block; /* Alinea etiquetas e input verticalmente */
+    font-size: 36px;
+    color: black;
+    text-align: center;
+}
+/* Estilos para el botón */
+button {
+    padding: 10px;
+    margin-top: 5%;
+    max-width: 200px;
+    width: auto;
+    background-color: darkred;
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover {
+    background-color: indianred;
+}
+/* Estilos para el párrafo de resultado */
+#resultado {
+    margin-top: 5%;
+    font-size: 36px;
+    color: black;
+}
+
+.imagen{
+    flex: 1; /* Ocupa el espacio restante */
+    text-align: right; /
+}
+img {
+    max-width: 80%; /* Ajusta la imagen al tamaño del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 8px;
+}
